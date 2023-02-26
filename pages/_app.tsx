@@ -114,7 +114,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                   <div className="ml-4 md:ml-0">
                     <h3 className="text-xl md:text-2xl font-bold text-white">AI-Powered Support</h3>
                     <p className="text-gray-400 mt-2 md:text-lg max-w-md">
-                      Train the AI in our app to respond to customer support emails based on rules you set in plain English, and filter out emails that don't require a response.
+                      Train the AI in our app to respond to customer support emails based on rules you set in plain English, and filter out emails that dont require a response.
                     </p>
                     </div>
                   </li>
