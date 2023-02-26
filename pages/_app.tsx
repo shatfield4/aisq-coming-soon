@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         </nav>
         {/* Content */}
         <main className="flex-1">
-          <div className="container mx-auto flex flex-col items-center justify-center mb-4">
+          <div className="container mx-auto flex flex-col items-center justify-center mb-40">
             <div className="relative h-40 w-40 md:h-64 md:w-64">
               <Image
                 src="/aisq_full_logo.svg"
