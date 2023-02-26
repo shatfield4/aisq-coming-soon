@@ -11,51 +11,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>Aisq - Coming Soon</title>
       </Head>
       <div className="min-h-screen bg-gray-900 flex flex-col">
-        {/* Top bar */}
-        <nav className="bg-gray-800 text-white py-2">
-          <div className="container mx-auto flex justify-between items-center">
-            <div className="h-10 w-10 md:h-12 md:w-12 relative">
-              <Image
-                src="/aisq_no_letters.svg"
-                alt="Aisq Logo"
-                layout="fill"
-                objectFit="contain"
-                className='p-1'
-              />
-            </div>
-            <button className="block md:hidden">
-              <svg
-                className="w-6 h-6 fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-              >
-                <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
-              </svg>
-            </button>
-            <ul className="hidden md:flex space-x-4">
-              <li>
-                <a href="#" className="hover:text-gray-200">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-200">
-                  Features
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-200">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-gray-200">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
         {/* Content */}
         <main className="flex-1">
           <div className="container mx-auto flex flex-col items-center justify-center mb-40">
