@@ -22,7 +22,7 @@ const ComingSoon = () => {
           objectFit="contain"
         />
       </div>
-      <h1 className={`font-inter font-medium md:text-6xl text-4xl leading-6xl tracking-tighter text-white bg-clip-text text-center transition-opacity duration-1000 delay-500 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
+      <h1 className={`font-inter font-medium md:text-6xl text-4xl leading-6xl tracking-tighter text-white bg-clip-text text-center transition-opacity duration-1000 delay-500 mx-6 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
         Automate Your Shopify<br />Customer Service Experience
       </h1>
       <div className={`font-inter font-normal md:text-2xl text-xl leading-2xl text-gray-400 mt-5 text-center mx-6 transition-opacity duration-1000 delay-1000 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
