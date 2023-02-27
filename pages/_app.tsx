@@ -2,7 +2,7 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import 'tailwindcss/tailwind.css';
 import ComingSoon from './componenents/ComingSoon';
-import Footer from './componenents/FooterBar';
+import FooterBar from './componenents/FooterBar';
 
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <main className="flex-1">
           <ComingSoon />
         </main>
-        <Footer />
+        <FooterBar />
     </div>
   </>
   );
