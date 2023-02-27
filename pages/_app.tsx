@@ -21,27 +21,38 @@ function MyApp({ Component, pageProps }: AppProps) {
                 layout="fill"
                 objectFit="contain"
               />
-
             </div>
-            <div className='relative h-40 w-40 md:h-40 md:w-64'>
+            {/* <div className="relative h-screen w-screen md:h-full md:w-auto bg-gray-900 shadow-xl rounded-xl">
               <Image
-                  src="/aisq_shopify_logo.svg"
-                  alt="Aisq + Shopify Logo"
-                  layout="fill"
-                  objectFit="contain"
-                />
-            </div>
+                src="/dashboard.svg"
+                alt="Dashboard"
+                layout="fill"
+                objectFit="cover"
+              />
+            </div> */}
 
-            <h1 className="font-inter font-medium text-6xl leading-6xl tracking-tighter bg-gradient-to-br from-white to-gray-400 text-transparent bg-clip-text text-center">
+
+
+
+            <h1 className="font-inter font-medium md:text-6xl text-4xl leading-6xl tracking-tighter text-white bg-clip-text text-center">
               Automate Your Shopify<br />Customer Service Experience
             </h1>
 
-            <div className="font-inter font-normal text-2xl leading-2xl text-gray-400 mt-5 text-center">
+            <div className="font-inter font-normal text-2xl leading-2xl text-gray-400 mt-5 text-center mx-6">
               No more manual responses, no more missed emails.
             </div>
-            <button className="font-inter font-normal text-lg leading-lg text-white bg-gradient-to-b from-blue-600 to-purple-600 rounded-full px-8 py-3 mt-8">
-              Coming Soon
+            <button className="flex items-center justify-center font-inter font-medium text-base text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full pl-8 pr-6 py-3 mt-8">
+              <span>Coming Soon</span>
+              <svg className="w-4 h-4 ml-3 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" />
+              </svg>
             </button>
+
+
+
+
+
+
 
             <div className="flex flex-col items-center mt-8 md:flex-row md:justify-center md:mt-16">
             <div className="w-full md:w-2/3">
