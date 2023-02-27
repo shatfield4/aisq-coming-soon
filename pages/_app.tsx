@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import 'tailwindcss/tailwind.css';
 import ComingSoon from './componenents/ComingSoon';
-import Footer from './componenents/footer';
+import Footer from './componenents/Footer';
 
 
 function MyApp({ Component, pageProps }: AppProps) {
