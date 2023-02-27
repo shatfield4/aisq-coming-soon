@@ -5,6 +5,7 @@ import 'tailwindcss/tailwind.css';
 import ComingSoon from './componenents/ComingSoon';
 import Footer from './componenents/footer';
 
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -15,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <main className="flex-1">
           <ComingSoon />
         </main>
-      <Footer />
+        <Footer />
     </div>
   </>
   );
