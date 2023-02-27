@@ -14,17 +14,35 @@ function MyApp({ Component, pageProps }: AppProps) {
         {/* Content */}
         <main className="flex-1">
           <div className="container mx-auto flex flex-col items-center justify-center mb-40">
-            <div className="relative h-40 w-40 md:h-64 md:w-64">
+            <div className="relative h-40 w-40 md:h-40 md:w-64">
               <Image
                 src="/aisq_full_logo.svg"
                 alt="Aisq Logo"
                 layout="fill"
                 objectFit="contain"
               />
+
             </div>
-            <p className="text-white text-center mt-2 md:text-lg max-w-2xl">
-              Coming soon.
-            </p>
+            <div className='relative h-40 w-40 md:h-40 md:w-64'>
+              <Image
+                  src="/aisq_shopify_logo.svg"
+                  alt="Aisq + Shopify Logo"
+                  layout="fill"
+                  objectFit="contain"
+                />
+            </div>
+
+            <h1 className="font-inter font-medium text-6xl leading-6xl tracking-tighter bg-gradient-to-br from-white to-gray-400 text-transparent bg-clip-text text-center">
+              Automate Your Shopify<br />Customer Service Experience
+            </h1>
+
+            <div className="font-inter font-normal text-2xl leading-2xl text-gray-400 mt-5 text-center">
+              No more manual responses, no more missed emails.
+            </div>
+            <button className="font-inter font-normal text-lg leading-lg text-white bg-gradient-to-b from-blue-600 to-purple-600 rounded-full px-8 py-3 mt-8">
+              Coming Soon
+            </button>
+
             <div className="flex flex-col items-center mt-8 md:flex-row md:justify-center md:mt-16">
             <div className="w-full md:w-2/3">
               <h2 className="text-green-500 text-3xl font-bold text-center mb-8">Key Features</h2>
