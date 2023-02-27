@@ -1,9 +1,8 @@
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import Image from 'next/image';
 import 'tailwindcss/tailwind.css';
 import ComingSoon from './componenents/ComingSoon';
-import Footer from './componenents/Footer';
+import Footer from './componenents/FooterBar';
 
 
 function MyApp({ Component, pageProps }: AppProps) {
