@@ -22,22 +22,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                 objectFit="contain"
               />
             </div>
-            {/* <div className="relative h-screen w-screen md:h-full md:w-auto bg-gray-900 shadow-xl rounded-xl">
-              <Image
-                src="/dashboard.svg"
-                alt="Dashboard"
-                layout="fill"
-                objectFit="cover"
-              />
-            </div> */}
-
-
-
-
             <h1 className="font-inter font-medium md:text-6xl text-4xl leading-6xl tracking-tighter text-white bg-clip-text text-center">
               Automate Your Shopify<br />Customer Service Experience
             </h1>
-
             <div className="font-inter font-normal text-2xl leading-2xl text-gray-400 mt-5 text-center mx-6">
               No more manual responses, no more missed emails.
             </div>
@@ -47,13 +34,6 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" />
               </svg>
             </button>
-
-
-
-
-
-
-
             <div className="flex flex-col items-center mt-8 md:flex-row md:justify-center md:mt-16">
             <div className="w-full md:w-2/3">
               <h2 className="text-green-500 text-3xl font-bold text-center mb-8">Key Features</h2>
