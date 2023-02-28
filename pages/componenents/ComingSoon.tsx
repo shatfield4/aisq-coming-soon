@@ -51,7 +51,7 @@ const ComingSoon = () => {
       <div className={`flex justify-center px-8 my-16 transition-opacity duration-1000 ${showImage ? 'opacity-100' : 'opacity-0'}`}>
         <div className="gap-8 items-start flex justify-center w-full md:w-2/3">
           <div className="relative group">
-            <div className="absolute -inset-1 bg-purple-500 rounded-xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+            <div className="absolute -inset-0 bg-purple-500 rounded-xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
             <button className="relative bg-black rounded-xl leading-none flex items-center divide-x divide-gray-600 text-white">
               <Image
                   src="/dashboard.png"
