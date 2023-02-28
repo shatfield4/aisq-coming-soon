@@ -36,7 +36,7 @@ const ComingSoon = () => {
       </div>
       <Button buttonText={'Coming Soon'} showButton={showButton} onClick={handleSignUpEarlyAccess}/>
       <div className="flex justify-center my-8 w-full md:w-2/3 px-5 mt-16">
-        <div className={`rounded-xl p-2 shadow-purple-glow transition-opacity duration-1000 ${showImage ? 'opacity-100' : 'opacity-0'}`}>
+        <div className={`rounded-xl p-2 shadow-purple-glow inset-1 animate-tilt transition-opacity duration-1000 ${showImage ? 'opacity-100' : 'opacity-0'}`}>
           <Image
             src="/dashboard.png"
             alt="Dashboard"
