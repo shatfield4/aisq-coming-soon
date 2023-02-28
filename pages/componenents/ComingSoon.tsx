@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import Button from './UI/Button';
 
 const ComingSoon = () => {
   const [showContent, setShowContent] = useState(false);
@@ -11,6 +12,11 @@ const ComingSoon = () => {
     setTimeout(() => setShowButton(true), 1500);
     setTimeout(() => setShowImage(true), 1500);
   }, []);
+
+  const handleSignUpEarlyAccess = () => {
+    window.location.href = 'https://airtable.com/shrnoCjCt6pObbkIn';
+  };
+
 
   return (
     <div className="container mx-auto flex flex-col items-center justify-center mb-40">
@@ -28,12 +34,7 @@ const ComingSoon = () => {
       <div className={`font-inter font-normal md:text-2xl text-xl leading-2xl text-gray-400 mt-5 text-center mx-6 transition-opacity duration-1000 delay-1000 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
         No more manual responses, no more missed emails.
       </div>
-      <button className={`flex items-center justify-center font-inter font-medium text-base text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full pl-8 pr-6 py-3 mt-8 transition-opacity duration-1000 ${showButton ? 'opacity-100' : 'opacity-0'}`}>
-        <span>Coming Soon</span>
-        <svg className="w-4 h-4 ml-3 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" />
-        </svg>
-      </button>
+      <Button buttonText={'Coming Soon'} showButton={showButton} onClick={handleSignUpEarlyAccess}/>
       <div className="flex justify-center my-8 w-full md:w-2/3 px-5 mt-16">
         <div className={`rounded-xl p-2 shadow-purple-glow transition-opacity duration-1000 ${showImage ? 'opacity-100' : 'opacity-0'}`}>
           <Image
@@ -45,6 +46,14 @@ const ComingSoon = () => {
           />
         </div>
       </div>
+      <h2 className="font-inter font-medium md:text-4xl text-2xl leading-4xl tracking-tighter text-white bg-clip-text text-center transition-opacity duration-1000 delay-1500 mx-6 mt-16">
+            Aisq is coming to to the public soon.
+            </h2>
+      <div className='flex flex-col'>
+        <Button buttonText={'Sign Up for Early Access'} onClick={handleSignUpEarlyAccess}/>
+      </div>
+
+
     </div>
   );
 };
