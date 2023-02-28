@@ -55,8 +55,6 @@ const ComingSoon = () => {
       <div className='flex flex-col'>
         <Button buttonText={'Sign Up for Early Access'} onClick={handleSignUpEarlyAccess}/>
       </div>
-
-
     </div>
   );
 };
