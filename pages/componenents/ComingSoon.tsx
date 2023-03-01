@@ -61,7 +61,7 @@ const ComingSoon = () => {
       <h1 className="font-inter font-medium md:text-6xl text-4xl leading-4xl tracking-tighter text-white bg-clip-text text-center transition-opacity duration-1000 delay-1500 mx-6 mt-20">
         Aisq is coming soon to the public.
       </h1>
-      <div className={`font-inter font-normal md:text-2xl text-xl leading-2xl text-gray-400 mt-5 text-center mx-6 transition-opacity duration-1000 delay-1000 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`font-inter font-normal md:text-2xl text-xl leading-2xl text-gray-400 mt-5 text-center mx-6`}>
         Sign up now to get early access.
       </div>
       <div className='flex flex-col'>
