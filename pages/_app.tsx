@@ -3,6 +3,7 @@ import Head from 'next/head';
 import 'tailwindcss/tailwind.css';
 import ComingSoon from './componenents/ComingSoon';
 import FooterBar from './componenents/FooterBar';
+import { Analytics } from '@vercel/analytics/react';
 
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -17,6 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         </main>
         <FooterBar />
     </div>
+    <Analytics />
   </>
   );
 }
