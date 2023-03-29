@@ -45,7 +45,8 @@ const ComingSoon = () => {
           showContent ? "opacity-100" : "opacity-0"
         }`}
       >
-        No more manual responses, no more missed emails.
+        Your solution for efficient, automated customer support that simplifies
+        e-commerce operations and cuts costs.
       </div>
       <Button
         buttonText={"Join Waitlist"}
